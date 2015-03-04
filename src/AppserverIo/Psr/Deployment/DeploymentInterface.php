@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Deployment\DeploymentInterface
+ * \AppserverIo\Psr\Deployment\DeploymentInterface
  *
  * NOTICE OF LICENSE
  *
@@ -28,6 +28,13 @@ namespace AppserverIo\Psr\Deployment;
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * @link      https://github.com/appserver-io-psr/deployment
  * @link      http://www.appserver.io
+ *
+ * The comments below hint at methods present in widely used explicit implementations of this interface and MAY
+ * be introduced in the next MAJOR release of this PSR
+ *
+ * @method \AppserverIo\Appserver\Core\Interfaces\ContainerInterface getContainer()         getContainer() Returns the container instance
+ * @method \AppserverIo\Appserver\Core\Api\DeploymentService         getDeploymentService() getDeploymentService() Returns the deployment service instance
+ * @method null                                                      injectContainer()      injectContainer(\AppserverIo\Appserver\Core\Interfaces\ContainerInterface $container) Injects the container instance
  */
 interface DeploymentInterface
 {

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Deployment\DescriptortWrapper
+ * \AppserverIo\Psr\Deployment\DescriptorWrapper
 *
 * NOTICE OF LICENSE
 *
@@ -42,7 +42,7 @@ class DescriptorWrapper implements DescriptorInterface
     /**
      * Injects the descriptor instance we want to wrap.
      *
-     * @param \AppserverIo\Psr\Deployment\DeploymentInterface $descriptor The descriptor instance to be wrapped
+     * @param \AppserverIo\Psr\Deployment\DescriptorInterface $descriptor The descriptor instance to be wrapped
      *
      * @return void
      */
