@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Deployment\DeploymentWrapper
+ * \AppserverIo\Psr\Deployment\DeploymentWrapper
  *
  * NOTICE OF LICENSE
  *

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Deployment\DescriptorInterface
+ * \AppserverIo\Psr\Deployment\DescriptorInterface
  *
  * NOTICE OF LICENSE
  *

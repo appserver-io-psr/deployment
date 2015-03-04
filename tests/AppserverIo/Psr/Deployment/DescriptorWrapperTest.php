@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Deployment\DescriptorWrapperTest
+ * \AppserverIo\Psr\Deployment\DescriptorWrapperTest
  *
  * NOTICE OF LICENSE
  *

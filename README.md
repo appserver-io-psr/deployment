@@ -1,6 +1,11 @@
 # PSR, defining deployment functionality.
 
-[![Latest Stable Version](https://poser.pugx.org/appserver-io-psr/deployment/v/stable.png)](https://packagist.org/packages/appserver-io-psr/deployment) [![Total Downloads](https://poser.pugx.org/appserver-io-psr/deployment/downloads.png)](https://packagist.org/packages/appserver-io-psr/deployment) [![Latest Unstable Version](https://poser.pugx.org/appserver-io-psr/deployment/v/unstable.png)](https://packagist.org/packages/appserver-io-psr/deployment) [![License](https://poser.pugx.org/appserver-io-psr/deployment/license.png)](https://packagist.org/packages/appserver-io-psr/deployment) [![Build Status](https://travis-ci.org/appserver-io-psr/deployment.png)](https://travis-ci.org/appserver-io-psr/deployment)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/?branch=master)[![Code Coverage](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/appserver-io-psr/deployment.svg?style=flat-square)](https://packagist.org/packages/appserver-io-psr/deployment) 
+ [![Total Downloads](https://img.shields.io/packagist/dt/appserver-io-psr/deployment.svg?style=flat-square)](https://packagist.org/packages/appserver-io-psr/deployment)
+ [![License](https://img.shields.io/packagist/l/appserver-io-psr/deployment.svg?style=flat-square)](https://packagist.org/packages/appserver-io-psr/deployment)
+ [![Build Status](https://img.shields.io/travis/appserver-io-psr/deployment/master.svg?style=flat-square)](http://travis-ci.org/appserver-io-psr/deployment)
+ [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/appserver-io-psr/deployment/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/?branch=master)
+ [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/appserver-io-psr/deployment/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/appserver-io-psr/deployment/?branch=master)
 
 Deployment interfaces for usage in container context.
 
@@ -19,12 +24,6 @@ release. If you want to install it with your application only, you do this by ad
 
 to your ```composer.json``` and invoke ```composer update``` in your project.
 
-## Usage
-
-Coming soon!
-
 # External Links
 
 * Documentation at [appserver.io](http://docs.appserver.io)
-* Documentation on [GitHub](https://github.com/techdivision/TechDivision_AppserverDocumentation)
-* [Getting started](https://github.com/techdivision/TechDivision_AppserverDocumentation/tree/master/docs/getting-started)
