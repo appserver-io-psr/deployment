@@ -33,12 +33,67 @@ class DescriptorWrapperTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * Test if a new instance will be created.
+     * The descriptor wrapper we want to test.
+     *
+     * @var \AppserverIo\Psr\Deployment\DescriptorWrapper
+     */
+    protected $descriptorWrapper;
+
+    /**
+     * Sets up the fixture, for example, open a network connection.
+     * This method is called before a test is executed.
+     *
+     * @return void
+     * @see \PHPUnit_Framework_TestCase::setUp()
+     */
+    protected function setUp()
+    {
+        $this->descriptorWrapper = new DescriptorWrapper();
+    }
+
+    /**
+     * Test set setter/getter for the name.
      *
      * @return void
      */
-    public function testNewDescriptorInstance()
+    public function testSetGetName()
     {
-        $this->assertInstanceOf('AppserverIo\Psr\Deployment\DescriptorInterface', DescriptorWrapper::newDescriptorInstance());
+
+        // create a stub for the descriptor interface
+        $stub = $this->getMock('\AppserverIo\Psr\Deployment\DescriptorInterface');
+
+        // configure the stub
+        $stub->expects($this->once())
+             ->method('getName')
+             ->willReturn($name = 'Test Name');
+
+        // inject the stub
+        $this->descriptorWrapper->injectDescriptor($stub);
+
+        // test the getter
+        $this->assertSame($name, $this->descriptorWrapper->getName());
+    }
+
+    /**
+     * Test set setter/getter for the description.
+     *
+     * @return void
+     */
+    public function testSetGetDescription()
+    {
+
+        // create a stub for the descriptor interface
+        $stub = $this->getMock('\AppserverIo\Psr\Deployment\DescriptorInterface');
+
+        // configure the stub
+        $stub->expects($this->once())
+             ->method('getDescription')
+             ->willReturn($description = 'Test Description');
+
+        // inject the stub
+        $this->descriptorWrapper->injectDescriptor($stub);
+
+        // test the getter
+        $this->assertSame($description, $this->descriptorWrapper->getDescription());
     }
 }
