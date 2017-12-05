@@ -52,29 +52,6 @@ class DescriptorWrapperTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test set setter/getter for the name.
-     *
-     * @return void
-     */
-    public function testSetGetName()
-    {
-
-        // create a stub for the descriptor interface
-        $stub = $this->getMock('\AppserverIo\Psr\Deployment\DescriptorInterface');
-
-        // configure the stub
-        $stub->expects($this->once())
-             ->method('getName')
-             ->willReturn($name = 'Test Name');
-
-        // inject the stub
-        $this->descriptorWrapper->injectDescriptor($stub);
-
-        // test the getter
-        $this->assertSame($name, $this->descriptorWrapper->getName());
-    }
-
-    /**
      * Test set setter/getter for the description.
      *
      * @return void

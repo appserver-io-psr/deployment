@@ -62,16 +62,6 @@ class DescriptorWrapper implements DescriptorInterface
     }
 
     /**
-     * Returns the reference name.
-     *
-     * @return string The reference name
-     */
-    public function getName()
-    {
-        return $this->getDescriptor()->getName();
-    }
-
-    /**
      * Returns the reference description.
      *
      * @return string The reference description

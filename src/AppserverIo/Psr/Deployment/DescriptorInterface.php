@@ -33,16 +33,9 @@ interface DescriptorInterface
 {
 
     /**
-     * Returns the reference name.
+     * Returns the descriptor's description.
      *
-     * @return string The reference name
-     */
-    public function getName();
-
-    /**
-     * Returns the reference description.
-     *
-     * @return string The reference description
+     * @return string The descriptor's description
      */
     public function getDescription();
 }
