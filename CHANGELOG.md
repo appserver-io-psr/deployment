@@ -1,3 +1,13 @@
+# Version 2.0.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Refactoring for new DI functionality
+
 # Version 1.1.0
 
 ## Bugfixes

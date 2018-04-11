@@ -62,12 +62,12 @@ class DescriptorWrapper implements DescriptorInterface
     }
 
     /**
-     * Returns a new descriptor instance.
+     * Returns the reference description.
      *
-     * @return \AppserverIo\Psr\Deployment\DescriptorInterface The descriptor instance
+     * @return string The reference description
      */
-    public static function newDescriptorInstance()
+    public function getDescription()
     {
-        return new DescriptorWrapper();
+        return $this->getDescriptor()->getDescription();
     }
 }

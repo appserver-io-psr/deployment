@@ -33,9 +33,9 @@ interface DescriptorInterface
 {
 
     /**
-     * Returns a new descriptor instance.
+     * Returns the descriptor's description.
      *
-     * @return \AppserverIo\Psr\Deployment\DescriptorInterface The descriptor instance
+     * @return string The descriptor's description
      */
-    public static function newDescriptorInstance();
+    public function getDescription();
 }
