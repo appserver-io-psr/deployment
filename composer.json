@@ -1,35 +1,36 @@
 {
-	"name" : "appserver-io-psr/deployment",
-	"description" : "PSR, defining deployment functionality.",
-	"homepage" : "https://github.com/appserver-io-psr/deployment",
-	"license" : "OSL-3.0",
-	"require" : {
-		"php" : ">=5.4.0"
-	},
-	"require-dev" : {
-		"appserver-io/build" : "~1.0"
-	},
-	"autoload" : {
-		"psr-0" : {
-			"AppserverIo\\Psr\\Deployment" : [
-				"src/",
-				"tests/"
-			]
-		}
-	},
-	"authors" : [{
-			"name" : "Tim Wagner",
-			"email" : "tw@appserver.io",
-			"homepage" : "https://github.com/wagnert",
-			"role" : "Developer"
-		}
-	],
-	"support" : {
-		"email" : "tw@appserver.io",
-		"issues" : "https://github.com/appserver-io-psr/deployment/issues",
-		"source" : "https://github.com/appserver-io-psr/deployment"
-	},
-	"keywords" : [
-		"deployment"
-	]
+    "name": "appserver-io-psr/deployment",
+    "description": "PSR, defining deployment functionality.",
+    "homepage": "https://github.com/appserver-io-psr/deployment",
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "appserver-io/build": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "AppserverIo\\Psr\\Deployment": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Tim Wagner",
+            "email": "tw@appserver.io",
+            "homepage": "https://github.com/wagnert",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "tw@appserver.io",
+        "issues": "https://github.com/appserver-io-psr/deployment/issues",
+        "source": "https://github.com/appserver-io-psr/deployment"
+    },
+    "keywords": [
+        "deployment"
+    ]
 }
